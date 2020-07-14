@@ -60,6 +60,6 @@ class PageScrapper:
         return BeautifulSoup(page.content, "html.parser")
 
 
-URL = ''
+URL = 'https://ogloszenia.trojmiasto.pl/nieruchomosci/gdansk/ikl,101_106.html'
 scraper = PageScrapper(URL)
 scraper.find_advertisements()
